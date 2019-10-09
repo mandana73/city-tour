@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Banner from '../components/Banner'
 import {Link} from 'react-router-dom'
+import Button from 'antd/es/button'
 
 export default function Home (){
     return(
@@ -11,6 +12,7 @@ export default function Home (){
                  <Link to='/rooms' className="btn-primary">
                      اتاق های ما
                  </Link>
+                 <Button type="primary">Button</Button>
              </Banner>
         </Hero>   
     )
